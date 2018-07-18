@@ -1,0 +1,15 @@
+ <h1>Welcome to the homepage</h1>
+   <% @posts.each do |post| %>
+   <div class="">
+     <h1><%= post[:title] %></h1>
+     <p><%= post[:body] %></p>
+   </div>
+   <% end %>
+
+   <h1>homepage</h1>
+     <% @animals.each do |animal| %>
+     <div class="">
+       <h1><%= animal[:title] %></h1>
+       <p><%= animal[:body] %></p>
+     </div>
+     <% end %>
